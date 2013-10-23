@@ -228,7 +228,8 @@
 			
 			//labela za naslove (legend)
 			ctx.fillStyle = legendColor;
-			ctx.fillText(seriesArray.titles[i], sredina_texta_x, cY * 1.87);
+			ctx.fillText(seriesArray.titles[i], sredina_texta_x, cY * 1.8);
+			ctx.fillText("("+series[i][1]+")", sredina_texta_x, cY * 1.95);
 			
 			ctx.restore();
 		}				
