@@ -236,7 +236,7 @@
 	
 	function drawChart(){	
 		
-		//nesto jede govna za propertije
+		
 		cX = Math.floor(canvas.width / 2);
 		cY = Math.floor(canvas.height / 2);
 		radius = Math.min(cX,cY) * 0.75;
